@@ -12,22 +12,46 @@
         die Fragestellungen und Antworten in einer html Datei darstellst. Benutze
         bold, italic und underline für Textformatierungen. Gerne kannst du auch
         links zu anderen Webseiten einfügen um deine Quellen anzugeben.</p><p></p>
-        <ol>
+        <ul>
             <li><i>Was sind Backups?</i></li>
+            Als Backup bezeichnet man eine Sicherheitskopie, die Daten im Fall eines Systemausfalls oder eines Datenverlustes zurückkopiert oder durch die sie wiederhergestellt werden können. Die Kopie kann auf einer externe Festplatte, der Festplatte des Computers oder auch auf einem USB-Stick erstellt werden. Auch online können die Daten gesichert werden.
             <li><i>Warum sollte man Backups machen?</i></li>
+            Wenn Ihr Smartphone mal kaputt ist oder verloren geht, sind mit einem Backup die Daten wie Kontakte, Bilder und Videos noch verfügbar. Das Gleiche gilt für Ihren PC, wenn Sie Backups im Online-Speicher anlegen lassen. Sie können alle Daten wie Fotos und Dokumente später aus einem Backup wiederherstellen. Das ist zum Beispiel praktisch, wenn Ihr Smartphone kaputt ist und Sie es reparieren lassen müssen. Dabei wird das Gerät in der Regel komplett zurückgesetzt und alle Daten gelöscht. Spielen Sie dann das Backup ein, sind die Dateien wieder vorhanden.
             <li><i>Schau dir diesen Code für eine Datei backup.py an:</i></li><p></p>
-        </ol>
-    <img src="Bilder/Hilfsmittel_HA.png" alt="Code Bereitstellung für die HA" width="500">  
-    <p></p>
-            Was macht dieser Code?
-            Verwende eine ordered list um es zu beschreiben. Füge den code entweder als Bild oder als Codeblock (Pre-Element tag) ein.
-    <p></p> Gibt es einen Weg ein Script automatisch wiederholt auszuführen?
-            Also bspw. einmal pro Tag um 2 Uhr? Kannst du dir erklären wie das automatische Backups ermöglicht?
-    <p></p>
-    <h3>Das Pre-Element!</h3>
-        Das HTML-Element repräsentiert vorformatierten Text, der genau so dargestellt werden soll, wie er in der HTML-Datei geschrieben wurde. Der Text wird typischerweise mit einer nicht-proportionalen oder monospaced-Schriftart angezeigt. Leerzeichen innerhalb dieses Elements werden wie geschrieben angezeigt, mit einer Ausnahme. Wenn ein oder mehrere führende Zeilenumbrüche unmittelbar nach dem öffnenden Pre-Tag enthalten sind, wird das erste Zeilenumbruchzeichen entfernt. Standardmäßig ist Pre ein Block-Level-Element, d.h. sein Standardwert für display ist block.
+        </ul>
+    <img src="Bilder/Hilfsmittel_HA.png" alt="Code Bereitstellung für die HA" width="500">
     </p>
-
-
+    <p></p>
+    <p>
+        Was macht dieser Code?
+        Verwende eine ordered list um es zu beschreiben. Füge den code entweder als Bild oder als Codeblock (Pre-Element tag) ein.
+        <ol>
+            <ls><b>import shutil</b>
+                    <p>Das Kopieren von Dateien und Verzeichnissen ist eine häufige Aufgabe bei Dateioperationen, und das Shutil-Modul bietet hierfür praktische Funktionen. Es benötigt zwei Argumente: den Pfad der Quelldatei und das Ziel, an dem die Kopie abgelegt wird.</p></ls>
+            <ls><b>import datetime</b>
+                    <p>Durch den Import des datetime-Moduls erweitern Sie Python um Funktionen für Datums- und Zeitverarbeitung. Hierfür werden innerhalb des Moduls spezifische Datumsobjekte genutzt, die Sie in Ihrem Code einfach erstellen können.</p></ls>
+            <ls><b>backup_source und backup_target</b></ls>
+                    <p>Source und Target (Quelle und Ziel). Die Quelle für einen Backup-Prozess ist der Ort, an dem man seine Dateien erzeugt und gespeichert hat – es kann ein lokales Laufwerk sein, ein Cloud Service oder ein Teil eines Netzwerks. Das Ziel ist, wo die Backup-Dateien gespeichert werden sollen – ein externes Speichergerät, ein Cloud-Speicher oder ein Platz in einem Netzwerk.</p>
+            <ls><b>shutil.copytree(backup_source, backup_target)</b></ls>
+                    <p>Wenn es darum geht, ganze Verzeichnisse zu kopieren, ist die Funktion „shutil.copytree()“ die richtige Wahl. Es ermöglicht uns, den Inhalt eines Quellverzeichnisses rekursiv in ein Zielverzeichnis zu kopieren.</p>
+            <ls><b>print(f"Backup erfolgreich: {backup_target}")</b></ls>
+                    <p>Hier wird ausgegeben, dass das Backup im angegebenen Zielverzeichnis erfolgreich hinterlegt wurde.</p>
+        </ol>
+    </p>        
+    <p></p>
+    <p> <b> Gibt es einen Weg ein Script automatisch wiederholt auszuführen? Also bspw. einmal pro Tag um 2 Uhr? Kannst du dir erklären wie das automatische Backups ermöglicht?</b>
+            Ja, es gibt verschiedene Möglichkeiten, ein Script automatisch zu wiederholen, zum Beispiel einmal pro Tag um 2 Uhr. Eine gängige Methode dafür ist die Verwendung von Cron-Jobs, die in Unix-basierten Systemen wie Linux und macOS verfügbar sind. Mit Cron kannst du Zeitpläne für die Ausführung von Scripts oder Befehlen festlegen.
+            Um ein Script täglich um 2 Uhr auszuführen, würdest du einen Cron-Job wie folgt einrichten:
+    </p>
+    <p> <ol>
+        <li><b>Öffne das Terminal.</b></li>
+        <li><b>Gib den Befehl: crontab -e ein, um die Cron-Tabellen zu bearbeiten.</b></li>
+        <li><b>Füge eine Zeile hinzu, die so aussieht: 0 2   * /pfad/zum/deinem/script.sh</b></li>
+    </ol>
+    </p>
+    <p>-</p>
+    <h3>Das Pre-Element!</h3>
+    <p>Das HTML-Element repräsentiert vorformatierten Text, der genau so dargestellt werden soll, wie er in der HTML-Datei geschrieben wurde. Der Text wird typischerweise mit einer nicht-proportionalen oder monospaced-Schriftart angezeigt. Leerzeichen innerhalb dieses Elements werden wie geschrieben angezeigt, mit einer Ausnahme. Wenn ein oder mehrere führende Zeilenumbrüche unmittelbar nach dem öffnenden Pre-Tag enthalten sind, wird das erste Zeilenumbruchzeichen entfernt. Standardmäßig ist Pre ein Block-Level-Element, d.h. sein Standardwert für display ist block
+    </p>
 </body>
 </html>
