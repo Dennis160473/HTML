@@ -1,3 +1,32 @@
+* {
+    background-color: chartreuse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: red;
+    }
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+h2, h3, h4, h5, h6 {
+    text-align: left;
+}
+nav {
+    text-align: center;
+    border-radius: 20px;
+    border: 2px dotted black;
+}
+
+
+nav a {
+    margin: 10px;
+    padding: 20px;
+}
+
+
+
 a {
     color: green;
+    border-color: blue;
+    font-size: small;
 }
