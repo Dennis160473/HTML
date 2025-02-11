@@ -13,6 +13,18 @@ body {
     background-color: bisque; /* Wähle eine beliebige Farbe */
 }
 
+nav {
+    text-align: center;
+    border-radius: 20px;
+    border: 2px dotted black;
+}
+
+
+nav a {
+    margin: 10px;
+    padding: 20px;
+}
+
 /* 4. Button-Styling: Grün mit weißer Schrift und abgerundeten Ecken */
 /* 5. Hover-Effekt für den Button (dunkelgrün bei Hover) */
 .btn {
