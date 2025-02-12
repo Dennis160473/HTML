@@ -1,7 +1,4 @@
-body {
-    margin: 0;
-  }
-  .navbar {
+.Kopfzeile{
     background-color: red;
     width: 100vw;
     height: 100px;
@@ -11,34 +8,20 @@ body {
     align-items: center;
     display: flex;
   }
-  
-  .navArea {
-    flex: 1;
-    height: 100%;
-  }
-  .navAreaOne {
-    background-color: blue;
-  }
-  
-  .navAreaTwo {
-    background-color: green;
-  }
-  .navAreaThree {
-    background-color: black;
-  }
-  
-  .logoTitle {
-    color: purple;
-    font-size: 18px;
-    background-color: white;
-    padding: 8px;
-  }
-  
-  .logo {
-    height: 30px;
-    width: 30px;
-    border-radius: 15px;
-    background-color: orange;
-    margin-left: 8px;
-  }
- 
+
+.frame {
+  flex: 1;
+  height: 100%;
+}
+.frame1 {
+  background-color: blue;
+}
+.frame2 {
+  background-color: green;
+}
+.frame3 {
+  background-color: black;
+
+body {
+  margin: 0;
+}
