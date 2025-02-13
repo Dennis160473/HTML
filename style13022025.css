@@ -1,7 +1,7 @@
 .body {
     margin: 0;
 }
-    .Kopfzeile{
+.NavBar {
         background-color: red;
         width: 100vw;
         height: 100px;
@@ -10,9 +10,9 @@
         justify-content: center;
         align-items: center;
         display: flex;
-      }
+}
     
-    .frame {
+.frame {
         display: flex;
         height: 100%;
         flex: 1;
@@ -25,23 +25,23 @@
         justify-content: center;
         align-items: center;
         display: flex;
-    }
-    .frame1 {
+}
+.frame1 {
         background-color: aquamarine;
      
-    }
-    .frame2 {
+}
+.frame2 {
         background-color: yellow;
         justify-content: center;
-    }
-    .frame3 {
+}
+.frame3 {
         background-color: blueviolet;
-    }
-    .imageImg {
+}
+.imageImg {
       height: 50px;
       aspect-ratio: 1;
-    }
-    .Content {
+}
+.Content {
         background-color: blue;
         width: 100vw;
         height: 500px;
@@ -50,36 +50,36 @@
         justify-content: center;
         align-items: center;
         display: flex;
-      }
-      .ContArea {
+}
+.ContArea {
         display: flex;
         height: 100%;
         align-items: center;
         flex-direction: column;
-    }
-    .ContArea1 {
+}
+.ContArea1 {
         flex: 1;
         background-color: plum;
         width: 100%;
         box-sizing: border-box;
         justify-content: center;     
-    }
-    .ContArea2 {
+}
+.ContArea2 {
         flex: 1;
         background-color: burlywood;
         justify-content: center;
-    }
-    .ContArea3 {
+}
+.ContArea3 {
         flex: 1;
         background-color: chartreuse;
         justify-content: center;
-    }
-    .Value1 {
+}
+.Value1 {
         font-size: medium;
         color: black;
-    }
+}
     
-    .Fusszeile{
+.Footer {
         background-color: red;
         width: 100vw;
         height: 100px;
@@ -88,17 +88,17 @@
         justify-content: center;
         align-items: center;
         display: flex;
-    }
-    .foot {
+}
+.foot {
         display: flex;
         height: 100%;
         flex: 1;
         align-items: center;
-    }
-    .foot1 {
+}
+.foot1 {
     background-color: green;   
-    }
-    .foot2 {
+}
+.foot2 {
         background-color: yellow;
         justify-content: center;
-    }
+}
