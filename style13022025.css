@@ -1,30 +1,84 @@
 .body {
     margin: 0;
 }
-.NavBar {
-    background-color: red;
-    width: 100vw;
-    height: 100px;
-    box-sizing: border-box;
-    padding: 16px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-.navArea {
-    display: flex;
-    height: 100%;
+    .Kopfzeile{
+        background-color: red;
+        width: 100vw;
+        height: 100px;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+    
+    .frame {
+      flex: 1;
+      height: 100px;
+    }
+    .frame1 {
+      background-color: yellowgreen;
+      height: 50px;
+      padding: 8px;
+     
+    }
+    .frame2 {
+      background-color: rgb(38, 164, 164);
+      height: 50px;
+      width: 20px;
+      justify-items: center;
+      align-items: center;
+      padding: 8px;
+    }
+    .frame3 {
+      background-color: white;
+      height: 50px;
+      width: 20px;
+      padding: 8px;
+    }
+    .imageImg {
+      height: 50px;
+      aspect-ratio: 1;
+    }
+    .Hauptbereich {
+        background-color: blue;
+        width: 100vw;
+        height: 500px;
+        box-sizing: border-box;
+        padding: 4px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+    .imageImg2 {
+      height: 50px;
+      aspect-ratio: 1;
+    }
+    
+    .Fusszeile{
+      background-color: red;
+      width: 100vw;
+      height: 100px;
+      box-sizing: border-box;
+      padding: 4px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
+    .foot {
     flex: 1;
+    height: 100px;
+    }
+    .foot1 {
+    background-color: yellowgreen;
+    height: 50px;
+    font-size: 18px;
+    padding: 8px;
+    }
+    .foot2 {
+    background-color: rgb(38, 164, 164);
+    height: 50px;
+    width: 20px;
+    padding: 8px;
+    justify-items: center;
     align-items: center;
-}
-.navAreaOne {
-    background-color: aquamarine;
-}
-.navAreaTwo {
-    background-color: yellow;
-    justify-content: center;
-}
-  
-.navAreaThree {
-    background-color: blueviolet;
-}
+    }
