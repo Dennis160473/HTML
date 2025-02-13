@@ -39,23 +39,32 @@
     justify-content: center;   
 }
 
-  .Content {
-    display: flex;
+.Content {
     width: 100%;
     box-sizing: border-box;
     padding: 16px;
-    min-height: 200px;
-    background-color: violet;
-    justify-content: center;
-}
+    background-color: violet;  
+    text-align: center;
+  }
 .Box {
-    flex: 1;
-    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    box-sizing: border-box;
+    background-color: black;
     justify-content: center;
-    min-height: 100px;     
 }
+.ContentArea {
+    width: 200px;
+    padding: 8px;
+    background-color: brown;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
 .AdvertisementArea {
     width: 100%;
     margin-top: 32px;
