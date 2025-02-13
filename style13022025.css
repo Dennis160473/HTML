@@ -16,26 +16,6 @@
     align-items: center;
     display: flex;
 }
-
-.contentContainer {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 16px;
-    background-color: violet;
-  
-    text-align: center;
-}
-  
-.footerContainer {
-    display: flex;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 16px;
-    min-height: 200px;
-    background-color: bisque;
-    justify-content: center;
-}
-
 .NavArea {
     display: flex;
     height: 100%;
@@ -64,15 +44,23 @@
     justify-content: center;   
 }
 
+.contentContainer {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px;
+    background-color: violet;
+  
+    text-align: center;
+}
 .itemList {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     background-color: black;
     justify-content: center;
-  }
+}
   
-  .shopItem {
+.shopItem {
     width: 200px;
     padding: 8px;
     background-color: brown;
@@ -82,21 +70,30 @@
     align-items: center;
     flex-direction: column;
     border-radius: 8px;
-  }
+}
   
-  .shopItemImg {
+.shopItemImg {
     width: 150px;
   
     object-fit: cover;
-  }
+}
   
-  .shopItemText {
+.shopItemText {
     margin-top: 16px;
-  }
-  
-  .advertisementContainer {
+} 
+ 
+.footerContainer {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px;
+    min-height: 200px;
+    background-color: bisque;
+    justify-content: center;
+}
+.advertisementContainer {
     width: 100%;
     margin-top: 32px;
     background-color: aquamarine;
     min-height: 200px;
-  }
+}
