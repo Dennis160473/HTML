@@ -6,7 +6,7 @@
     width: 100vw;
     height: 100px;
     box-sizing: border-box;
-
+/*padding: 16px;* - um die Bereiche vom Hintergrund abzugrenzen./
     justify-content: center;
     align-items: center;
     display: flex;
