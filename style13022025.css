@@ -38,7 +38,6 @@
 .Content {
     width: 100%;
     box-sizing: border-box;
-
     background-color: brown;
     min-height: 50vh;
     font-size: 70px;
