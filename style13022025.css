@@ -39,57 +39,29 @@
     justify-content: center;   
 }
 
-.Content {
+  .Content {
     display: flex;
     width: 100%;
     box-sizing: border-box;
-    background-color: brown;
-    min-height: 50vh;
     padding: 16px;
-    font-size: 70px;
-    text-align: center;
+    min-height: 200px;
+    background-color: violet;
+    justify-content: center;
 }
 .Box {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    background-color: black;
-    justify-content: center;
-}  
-.ContArea {
-    display: flex;
-    height: 100%;
-    align-items: center;
-    flex-direction: column;
-}
-.ContArea1 {
     flex: 1;
-    background-color: plum;
+    background-color: black;
     width: 100%;
     box-sizing: border-box;
-    justify-content: center;     
-}
-.ContArea2 {
-    flex: 1;
-    background-color: burlywood;
     justify-content: center;
+    min-height: 100px;     
 }
-.ContArea3 {
-    flex: 1;
-    background-color: chartreuse;
-    justify-content: center;
-}
-.Value1 {
-    font-size: medium;
-    color: black;
-}
-
 .AdvertisementArea {
-    width: 100%;
-    margin-top: 32px;
+    flex: 1;
     background-color: white;
-    min-height: 200px;
-  }
+    justify-content: center;
+    min-height: ;
+}
 
 .Footer {
     display: flex;
