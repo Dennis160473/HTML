@@ -27,7 +27,7 @@
     border-radius: 20px;
 }  
 .NavArea2 {
-    flex: 5;
+    flex: 10;
     background-color: yellow;
     justify-content: center;
 }  
