@@ -11,6 +11,23 @@
     align-items: center;
     display: flex;
 }
+.navArea {
+    display: flex;
+    height: 100%;
+    flex: 1;
+    align-items: center;
+}
+.navAreaOne {
+    background-color: aquamarine;
+}
+.navAreaTwo {
+    background-color: yellow;
+    justify-content: center;
+}
+  
+.navAreaThree {
+    background-color: blueviolet;
+}
   
 .Content {
     width: 100%;
