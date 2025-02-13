@@ -61,10 +61,21 @@
     box-sizing: border-box;
     justify-content: center;   
 }
+.Clothes {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
 .ContArea2 {
     flex: 1;
     background-color: burlywood;
 }
+.Value1 {
+    font-size: medium;
+    color: black;
+}
+
 .ContArea3 {
     flex: 1;
     background-color: chartreuse;
@@ -74,11 +85,7 @@
 
 
 
-.Clothes {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-}
+
   
 .Footer {
     display: flex;
