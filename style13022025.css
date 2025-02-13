@@ -11,13 +11,13 @@
     align-items: center;
     display: flex;
 }
-.navArea {
+.NavArea {
     display: flex;
     height: 100%;
     flex: 1;
     align-items: center;
   }
-  .navAreaOne {
+  .NavArea1 {
     background-color: aquamarine;
   }
   
@@ -31,18 +31,14 @@
     border-radius: 20px;
   }
   
-  .navAreaTwo {
+  .NavArea2 {
     background-color: yellow;
     justify-content: center;
   }
   
-  .navAreaThree {
+  .NavArea3 {
     background-color: blueviolet;
   }
-
-
-
-
 
 .Content {
     width: 100%;
