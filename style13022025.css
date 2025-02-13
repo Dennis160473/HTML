@@ -53,13 +53,15 @@
     display: flex;
     height: 100%;
     align-items: center;
+    flex-direction: column;
 }
 .ContArea1 {
     flex: 1;
     background-color: plum;
     width: 100%;
     box-sizing: border-box;
-    justify-content: center;   
+    justify-content: center;
+     
 }
 .Clothes {
     width: 40px;
