@@ -64,6 +64,13 @@
     flex-direction: column;
     border-radius: 8px;
 }
+.shopItemImg {
+    width: 150px;  
+    object-fit: cover;
+}  
+.shopItemText {
+    margin-top: 16px;
+}
 
 .AdvertisementArea {
     width: 100%;
