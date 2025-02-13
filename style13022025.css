@@ -6,34 +6,28 @@
         width: 100vw;
         height: 100px;
         box-sizing: border-box;
+        padding: 16px;
         justify-content: center;
         align-items: center;
         display: flex;
       }
     
     .frame {
-      flex: 1;
-      height: 100px;
+        display: flex;
+        height: 100%;
+        flex: 1;
+        align-items: center;
     }
     .frame1 {
-      background-color: yellowgreen;
-      height: 50px;
-      padding: 8px;
+        background-color: aquamarine;
      
     }
     .frame2 {
-      background-color: rgb(38, 164, 164);
-      height: 50px;
-      width: 20px;
-      justify-items: center;
-      align-items: center;
-      padding: 8px;
+        background-color: yellow;
+        justify-content: center;
     }
     .frame3 {
-      background-color: white;
-      height: 50px;
-      width: 20px;
-      padding: 8px;
+        background-color: blueviolet;
     }
     .imageImg {
       height: 50px;
