@@ -48,6 +48,32 @@
     font-size: 70px;
     text-align: center;
 }
+.ContArea {
+    display: flex;
+    height: 100%;
+    flex: 1;
+    align-items: center;
+}
+.ContArea1 {
+    flex: 1;
+    background-color: plum;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;   
+}
+.ContArea2 {
+    flex: 1;
+    background-color: burlywood;
+}
+.ContArea3 {
+    flex: 1;
+    background-color: chartreuse;
+}
+
+
+
+
+
 .Clothes {
     width: 40px;
     height: 40px;
