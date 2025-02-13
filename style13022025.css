@@ -62,7 +62,10 @@
     align-items: center;
     flex-direction: column;
 }
-
+.Value1 {
+    font-size: medium;
+    color: black;
+}
 
 
 
