@@ -57,10 +57,10 @@
     min-height: 100px;     
 }
 .AdvertisementArea {
-    flex: 1;
-    background-color: white;
-    justify-content: center;
-    min-height: ;
+    width: 100%;
+    margin-top: 32px;
+    background-color: aquamarine;
+    min-height: 200px;
 }
 
 .Footer {
