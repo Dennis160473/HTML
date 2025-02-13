@@ -100,3 +100,15 @@
     background-color: bisque;
     justify-content: center;
 }
+.FooterArea1 {
+    flex: 1;
+    background-color: plum;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;     
+}
+.FooterArea2 {
+    flex: 1;
+    background-color: burlywood;
+    justify-content: center;
+}
