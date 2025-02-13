@@ -16,7 +16,14 @@
         display: flex;
         height: 100%;
         flex: 1;
+        align-items: center;        background-color: red;
+        width: 100vw;
+        height: 100px;
+        box-sizing: border-box;
+        padding: 16px;
+        justify-content: center;
         align-items: center;
+        display: flex;
     }
     .frame1 {
         background-color: aquamarine;
@@ -49,30 +56,33 @@
     }
     
     .Fusszeile{
-      background-color: red;
-      width: 100vw;
-      height: 100px;
-      box-sizing: border-box;
-      padding: 4px;
-      justify-content: center;
-      align-items: center;
-      display: flex;
+        background-color: red;
+        width: 100vw;
+        height: 100px;
+        box-sizing: border-box;
+        padding: 16px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
     }
     .foot {
-    flex: 1;
-    height: 100px;
+        display: flex;
+        height: 100%;
+        flex: 1;
+        align-items: center;        background-color: red;
+        width: 100vw;
+        height: 100px;
+        box-sizing: border-box;
+        padding: 16px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
     }
     .foot1 {
     background-color: yellowgreen;
     height: 50px;
-    font-size: 18px;
-    padding: 8px;
     }
     .foot2 {
-    background-color: rgb(38, 164, 164);
-    height: 50px;
-    width: 20px;
-    padding: 8px;
-    justify-items: center;
-    align-items: center;
+        background-color: yellow;
+        justify-content: center;
     }
