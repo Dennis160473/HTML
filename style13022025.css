@@ -62,6 +62,23 @@
     align-items: center;
     flex-direction: column;
 }
+.ContArea1 {
+    flex: 1;
+    background-color: plum;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;     
+}
+.ContArea2 {
+    flex: 1;
+    background-color: burlywood;
+    justify-content: center;
+}
+.ContArea3 {
+    flex: 1;
+    background-color: chartreuse;
+    justify-content: center;
+}
 .Value1 {
     font-size: medium;
     color: black;
