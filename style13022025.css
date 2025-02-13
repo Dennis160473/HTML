@@ -1,66 +1,80 @@
 :root {
     --primary-color: blue;
     --background-color: rgb(2, 100, 2);
-}
-.body {
+  }
+  
+  body {
     margin: 0;
     background-color: var(--background-color);
-}
-.NavBar{
+  }
+  .navbarContainer {
     background-color: red;
-    width: 100%;
+    width: 100vw;
     height: 100px;
     box-sizing: border-box;
-/*padding: 16px;* - um die Bereiche vom Hintergrund abzugrenzen*/
+    padding: 16px;
     justify-content: center;
     align-items: center;
     display: flex;
-}
-.NavArea {
-    display: flex;
-    height: 100%;
-    flex: 1;
-    align-items: center;
-}
-.NavArea1 {
-    flex: 1;
-    background-color: aquamarine;
-}
-.LogImg {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-}  
-.NavArea2 {
-    flex: 10;
-    background-color: yellow;
-    justify-content: center;
-}  
-.NavArea3 {
-    flex: 1;
-    background-color: blueviolet;
-    width: 100%;
-    box-sizing: border-box;
-    justify-content: center;   
-}
-
-.contentContainer {
+  }
+  
+  .contentContainer {
     width: 100%;
     box-sizing: border-box;
     padding: 16px;
     background-color: violet;
   
     text-align: center;
-}
-.itemList {
+  }
+  
+  .footerContainer {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px;
+    min-height: 200px;
+    background-color: bisque;
+    justify-content: center;
+  }
+  
+  .navArea {
+    display: flex;
+    height: 100%;
+    flex: 1;
+    align-items: center;
+  }
+  .navAreaOne {
+    background-color: aquamarine;
+  }
+  
+  .cssMeme {
+    height: 50vh;
+  }
+  
+  .logImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  
+  .navAreaTwo {
+    background-color: yellow;
+    justify-content: center;
+  }
+  
+  .navAreaThree {
+    background-color: blueviolet;
+  }
+  
+  .itemList {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     background-color: black;
     justify-content: center;
-}
+  }
   
-.shopItem {
+  .shopItem {
     width: 200px;
     padding: 8px;
     background-color: brown;
@@ -70,30 +84,21 @@
     align-items: center;
     flex-direction: column;
     border-radius: 8px;
-}
+  }
   
-.shopItemImg {
+  .shopItemImg {
     width: 150px;
   
     object-fit: cover;
-}
+  }
   
-.shopItemText {
+  .shopItemText {
     margin-top: 16px;
-} 
- 
-.footerContainer {
-    display: flex;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 16px;
-    min-height: 200px;
-    background-color: bisque;
-    justify-content: center;
-}
-.advertisementContainer {
+  }
+  
+  .advertisementContainer {
     width: 100%;
     margin-top: 32px;
     background-color: aquamarine;
     min-height: 200px;
-}
+  }
