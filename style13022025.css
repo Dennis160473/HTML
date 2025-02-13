@@ -86,10 +86,10 @@
 }
 
 .AdvertisementContainer {
-    width: 100%;
+    flex: 1;
     margin-top: 32px;
     background-color: black;
-    min-height: 200px;
+    min-height: 20px;
   }
   
 .Footer {
