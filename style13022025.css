@@ -40,6 +40,7 @@
 }
 
 .Content {
+    display: flex;
     width: 100%;
     box-sizing: border-box;
     background-color: brown;
@@ -51,7 +52,6 @@
 .ContArea {
     display: flex;
     height: 100%;
-    flex: 1;
     align-items: center;
 }
 .ContArea1 {
@@ -70,6 +70,7 @@
 .ContArea2 {
     flex: 1;
     background-color: burlywood;
+    justify-content: center;
 }
 .Value1 {
     font-size: medium;
@@ -79,6 +80,7 @@
 .ContArea3 {
     flex: 1;
     background-color: chartreuse;
+    justify-content: center;
 }
 
 
