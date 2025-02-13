@@ -56,6 +56,12 @@
     background-color: black;
     justify-content: center;
 }  
+.ContArea {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+}
 
 
 
