@@ -74,6 +74,11 @@
         background-color: chartreuse;
         justify-content: center;
 }
+.Clothes {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+}
 .Value1 {
         font-size: medium;
         color: black;
