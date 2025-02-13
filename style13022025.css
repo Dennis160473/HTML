@@ -1,5 +1,10 @@
+:root {
+    --primary-color: blue;
+    --background-color: rgb(2, 100, 2);
+}
 .body {
     margin: 0;
+    background-color: var(--background-color);
 }
 .NavBar{
     background-color: red;
@@ -11,6 +16,26 @@
     align-items: center;
     display: flex;
 }
+
+.contentContainer {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px;
+    background-color: violet;
+  
+    text-align: center;
+}
+  
+.footerContainer {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px;
+    min-height: 200px;
+    background-color: bisque;
+    justify-content: center;
+}
+
 .NavArea {
     display: flex;
     height: 100%;
@@ -39,21 +64,15 @@
     justify-content: center;   
 }
 
-.Content {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 16px;
-    background-color: violet;  
-    text-align: center;
-  }
-.Box {
+.itemList {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     background-color: black;
     justify-content: center;
-}
-.ContentArea {
+  }
+  
+  .shopItem {
     width: 200px;
     padding: 8px;
     background-color: brown;
@@ -63,40 +82,21 @@
     align-items: center;
     flex-direction: column;
     border-radius: 8px;
-}
-.shopItemImg {
-    width: 150px;  
+  }
+  
+  .shopItemImg {
+    width: 150px;
+  
     object-fit: cover;
-}  
-.shopItemText {
+  }
+  
+  .shopItemText {
     margin-top: 16px;
-}
-
-.AdvertisementArea {
+  }
+  
+  .advertisementContainer {
     width: 100%;
     margin-top: 32px;
     background-color: aquamarine;
     min-height: 200px;
-}
-
-.Footer {
-    display: flex;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 16px;
-    min-height: 200px;
-    background-color: bisque;
-    justify-content: center;
-}
-.FooterArea1 {
-    flex: 1;
-    background-color: plum;
-    width: 100%;
-    box-sizing: border-box;
-    justify-content: center;     
-}
-.FooterArea2 {
-    flex: 1;
-    background-color: burlywood;
-    justify-content: center;
-}
+  }
