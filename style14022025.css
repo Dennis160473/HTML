@@ -9,3 +9,25 @@
     padding: 10px;
     background-color: beige;
 }
+
+.Content {
+    background-color: blue;
+    width: 100vw;
+    height: 500px;
+    box-sizing: border-box;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.Footer {
+    background-color: red;
+    width: 100vw;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
